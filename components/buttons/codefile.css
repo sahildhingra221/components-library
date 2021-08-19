@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+    font-family: sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-weight: lighter;
+    padding:50px 0;
+    word-spacing: 10px;
+}
+
+.breadcrumbs{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding:0 0 40px;;
+}
+
+.component-preview{
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.component-code{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.component-code-html-wrap{
+    margin-top: 50px;
+}
+
+.component-code-html-wrap > h2{
+    margin-bottom: 20px;
+}
+
+.component-code-html{
+    background: black;
+    color: white;
+    display: inline-block;
+    padding:40px 50px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    border-radius: 7px;
+    line-height: 22px;
+    font-size: 16px;
+}
